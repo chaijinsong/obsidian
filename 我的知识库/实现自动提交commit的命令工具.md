@@ -2,8 +2,7 @@
 
 创建一个名为 `git-autocommit` 的文件（无后缀），内容如下：
 
-```
-```
+``` python
 #!/usr/bin/env python3
 
 import os
@@ -76,15 +75,14 @@ def main():
 
 if __name__ == "__main__":
     main()
+```
 
 ---
 
 ### 步骤 2: 安装工具
 
-bash
 
-复制
-
+```bash
 # 移动脚本到可执行路径
 sudo mv ~/Downloads/git-autocommit /usr/local/bin/
 
@@ -93,6 +91,8 @@ sudo chmod +x /usr/local/bin/git-autocommit
 
 # 安装依赖
 pip3 install watchdog
+```
+
 
 ---
 
@@ -103,6 +103,7 @@ pip3 install watchdog
 bash
 
 复制
+
 
 cd /Users/didi/Documents/Obsidian
 
