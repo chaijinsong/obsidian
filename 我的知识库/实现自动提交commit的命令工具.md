@@ -103,8 +103,7 @@ pip3 install watchdog
 bash
 
 复制
-
-
+```bash
 cd /Users/didi/Documents/Obsidian
 
 # 首次使用需要初始化 Git 仓库
@@ -113,21 +112,20 @@ git remote add origin https://github.com/chaijinsong/obsidian.git
 
 # 启动自动提交工具
 git-autocommit --remote origin --branch main
+```
+
 
 ---
 
 ### 通用化特性
 
-1. **动态目录**  
-    自动使用你执行命令时的当前目录作为监控目录和 Git 仓库。
+**动态目录**  
+自动使用你执行命令时的当前目录作为监控目录和 Git 仓库。
     
-2. **参数配置**  
+2.**参数配置**  
     通过命令行参数指定必要信息：
     
-    bash
-    
-    复制
-    
+```bash
     git-autocommit --remote <REMOTE_URL> [--branch BRANCH] [--debounce SECONDS]
     
     - `--remote`: 必填，Git 远程仓库地址（支持 SSH/HTTPS）
