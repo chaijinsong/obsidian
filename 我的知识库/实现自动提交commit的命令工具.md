@@ -2,10 +2,8 @@
 
 创建一个名为 `git-autocommit` 的文件（无后缀），内容如下：
 
-python
-
-复制
-
+```
+```
 #!/usr/bin/env python3
 
 import os
