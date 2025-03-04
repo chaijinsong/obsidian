@@ -120,24 +120,24 @@ git-autocommit --remote origin --branch main
 ### 通用化特性
 
 **动态目录**  
-自动使用你执行命令时的当前目录作为监控目录和 Git 仓库。
-    
-2.**参数配置**  
-    通过命令行参数指定必要信息：
-    
+   自动使用你执行命令时的当前目录作为监控目录和 Git 仓库。    
+
+**参数配置**  
+通过命令行参数指定必要信息：
 ```bash
     git-autocommit --remote <REMOTE_URL> [--branch BRANCH] [--debounce SECONDS]
-    
-    - `--remote`: 必填，Git 远程仓库地址（支持 SSH/HTTPS）
+```
+- `--remote`: 必填，Git 远程仓库地址（支持 SSH/HTTPS）
         
-    - `--branch`: 选填，目标分支（默认 `main`）
+- `--branch`: 选填，目标分支（默认 `main`）
         
-    - `--debounce`: 选填，防抖时间（单位秒，默认 5）
+- `--debounce`: 选填，防抖时间（单位秒，默认 5）
         
-3. **自动验证**  
-    如果当前目录不是 Git 仓库，会直接报错退出。
-    
-4. **友好输出**  
+
+**自动验证**  
+如果当前目录不是 Git 仓库，会直接报错退出。
+
+1. **友好输出**  
     明确显示监控配置和操作状态：
     
     复制
