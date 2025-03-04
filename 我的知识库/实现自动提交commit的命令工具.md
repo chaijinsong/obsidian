@@ -114,7 +114,6 @@ git remote add origin https://github.com/chaijinsong/obsidian.git
 git-autocommit --remote origin --branch main
 ```
 
-
 ---
 
 ### 通用化特性
@@ -125,7 +124,7 @@ git-autocommit --remote origin --branch main
 **参数配置**  
 通过命令行参数指定必要信息：
 ```bash
-    git-autocommit --remote <REMOTE_URL> [--branch BRANCH] [--debounce SECONDS]
+git-autocommit --remote <REMOTE_URL> [--branch BRANCH] [--debounce SECONDS]
 ```
 - `--remote`: 必填，Git 远程仓库地址（支持 SSH/HTTPS）
         
@@ -137,25 +136,20 @@ git-autocommit --remote origin --branch main
 **自动验证**  
 如果当前目录不是 Git 仓库，会直接报错退出。
 
-1. **友好输出**  
-    明确显示监控配置和操作状态：
-    
-    复制
-    
-    🔍 开始监控目录: /Users/didi/Documents/Obsidian
-       Remote: origin
-       Branch: main
-    按下 Ctrl+C 停止监控
-    
+**友好输出**  
+明确显示监控配置和操作状态
+```
+🔍 开始监控目录: /Users/didi/Documents/Obsidian
+   Remote: origin
+   Branch: main
+按下 Ctrl+C 停止监控
+```
 
 ---
 
 ### 典型工作流
 
-bash
-
-复制
-
+```bash
 # 进入任意需要监控的目录
 cd /path/to/your/project
 
@@ -168,5 +162,6 @@ git-autocommit --remote origin --branch dev --debounce 10
 
 # 后台运行（关闭终端不中断）
 nohup git-autocommit --remote origin --branch main > ~/autocommit.log 2>&1 &
+```
 
 这个工具现在可以在任何 Git 仓库中使用，只需通过参数动态指定远程仓库和分支，完美满足你的通用性需求！
