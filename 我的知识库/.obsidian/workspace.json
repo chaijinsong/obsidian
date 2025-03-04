@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "实现自动提交commit的命令工具.md",
+                "file": "检索词高亮常见方案.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "实现自动提交commit的命令工具"
+              "title": "检索词高亮常见方案"
             }
           }
         ],
@@ -182,9 +182,9 @@
   },
   "active": "2d979daeb135db07",
   "lastOpenFiles": [
-    "检索词高亮常见方案.md",
     "实现自动提交commit的命令工具.md",
     "搜索相关的产品设计.md",
+    "检索词高亮常见方案.md",
     "为什么保持良好睡眠、会给人一种掌控自己生活的感觉.md",
     "Pasted image 20250205135347.png",
     "Pasted image 20250205134214.png",
