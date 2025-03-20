@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Fiber.md",
+                "file": "Vue2 与 Vue3 的核心原理与升级总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "React Fiber"
+              "title": "Vue2 与 Vue3 的核心原理与升级总结"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "8263da7132e4986b",
   "lastOpenFiles": [
-    "React Fiber.md"
+    "React Fiber.md",
+    "Vue2 与 Vue3 的核心原理与升级总结.md"
   ]
 }
